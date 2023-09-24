@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login_DDT,Firefox 117.0,,,2023-09-24 17:04:36,2023-09-24 17:05:36,1m - 0.371s,PASSED
+,,,,,,,
+Test Cases/TC_QuizWeek3/TestScenarios_QuizWeek3/Demoblaze_login/TC_Login_Positive-Case,Firefox 117.0,,,2023-09-24 17:04:36,2023-09-24 17:04:52,16.318s,PASSED
+openBrowser(baseURL),Firefox 117.0,,,2023-09-24 17:04:37,2023-09-24 17:04:46,9.538s,PASSED
+"setViewPortSize(ViewPortWidth, ViewPortHeight)",Firefox 117.0,,,2023-09-24 17:04:46,2023-09-24 17:04:46,0.339s,PASSED
+"click(findTestObject(""Obj Spy/login/click_Login""))",Firefox 117.0,,,2023-09-24 17:04:46,2023-09-24 17:04:47,0.671s,PASSED
+"waitForElementPresent(findTestObject(""Obj Spy/login/click_Login""), 0)",Firefox 117.0,,,2023-09-24 17:04:47,2023-09-24 17:04:48,0.461s,PASSED
+"setText(findTestObject(""Obj Spy/login/inpt_Username_login""), UsernameLogin)",Firefox 117.0,,,2023-09-24 17:04:48,2023-09-24 17:04:48,0.669s,PASSED
+"setText(findTestObject(""Obj Spy/login/inpt_Password_login""), PasswordLogin)",Firefox 117.0,,,2023-09-24 17:04:48,2023-09-24 17:04:49,0.652s,PASSED
+"click(findTestObject(""Obj Spy/login/btn_Login""))",Firefox 117.0,,,2023-09-24 17:04:49,2023-09-24 17:04:50,0.569s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/login/lbl_Welcome""), 0)",Firefox 117.0,,,2023-09-24 17:04:50,2023-09-24 17:04:51,1.344s,PASSED
+"verifyElementPresent(findTestObject(""Obj Spy/login/btn_Logout""), 0)",Firefox 117.0,,,2023-09-24 17:04:51,2023-09-24 17:04:52,0.659s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-24 17:04:52,2023-09-24 17:04:52,0.968s,PASSED
+,,,,,,,
+Test Cases/TC_QuizWeek3/TestScenarios_QuizWeek3/Demoblaze_login/TC_Login_Positive-Case,Firefox 117.0,,,2023-09-24 17:04:53,2023-09-24 17:05:15,22.167s,PASSED
+openBrowser(baseURL),Firefox 117.0,,,2023-09-24 17:04:53,2023-09-24 17:04:59,6.953s,PASSED
+"setViewPortSize(ViewPortWidth, ViewPortHeight)",Firefox 117.0,,,2023-09-24 17:04:59,2023-09-24 17:05:00,0.319s,PASSED
+"click(findTestObject(""Obj Spy/login/click_Login""))",Firefox 117.0,,,2023-09-24 17:05:00,2023-09-24 17:05:00,0.596s,PASSED
+"waitForElementPresent(findTestObject(""Obj Spy/login/click_Login""), 0)",Firefox 117.0,,,2023-09-24 17:05:00,2023-09-24 17:05:01,0.441s,PASSED
+"setText(findTestObject(""Obj Spy/login/inpt_Username_login""), UsernameLogin)",Firefox 117.0,,,2023-09-24 17:05:01,2023-09-24 17:05:01,0.636s,PASSED
+"setText(findTestObject(""Obj Spy/login/inpt_Password_login""), PasswordLogin)",Firefox 117.0,,,2023-09-24 17:05:01,2023-09-24 17:05:02,0.657s,PASSED
+"click(findTestObject(""Obj Spy/login/btn_Login""))",Firefox 117.0,,,2023-09-24 17:05:02,2023-09-24 17:05:03,0.555s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/login/lbl_Welcome""), 0)",Firefox 117.0,,,2023-09-24 17:05:03,2023-09-24 17:05:13,10.640s,PASSED
+"verifyElementPresent(findTestObject(""Obj Spy/login/btn_Logout""), 0)",Firefox 117.0,,,2023-09-24 17:05:13,2023-09-24 17:05:14,0.316s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-24 17:05:14,2023-09-24 17:05:15,1.041s,PASSED
+,,,,,,,
+Test Cases/TC_QuizWeek3/TestScenarios_QuizWeek3/Demoblaze_login/TC_Login_Positive-Case,Firefox 117.0,,,2023-09-24 17:05:15,2023-09-24 17:05:36,21.489s,PASSED
+openBrowser(baseURL),Firefox 117.0,,,2023-09-24 17:05:15,2023-09-24 17:05:21,6.531s,PASSED
+"setViewPortSize(ViewPortWidth, ViewPortHeight)",Firefox 117.0,,,2023-09-24 17:05:21,2023-09-24 17:05:22,0.312s,PASSED
+"click(findTestObject(""Obj Spy/login/click_Login""))",Firefox 117.0,,,2023-09-24 17:05:22,2023-09-24 17:05:22,0.577s,PASSED
+"waitForElementPresent(findTestObject(""Obj Spy/login/click_Login""), 0)",Firefox 117.0,,,2023-09-24 17:05:22,2023-09-24 17:05:23,0.432s,PASSED
+"setText(findTestObject(""Obj Spy/login/inpt_Username_login""), UsernameLogin)",Firefox 117.0,,,2023-09-24 17:05:23,2023-09-24 17:05:23,0.630s,PASSED
+"setText(findTestObject(""Obj Spy/login/inpt_Password_login""), PasswordLogin)",Firefox 117.0,,,2023-09-24 17:05:23,2023-09-24 17:05:24,0.631s,PASSED
+"click(findTestObject(""Obj Spy/login/btn_Login""))",Firefox 117.0,,,2023-09-24 17:05:24,2023-09-24 17:05:24,0.554s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/login/lbl_Welcome""), 0)",Firefox 117.0,,,2023-09-24 17:05:24,2023-09-24 17:05:35,10.582s,PASSED
+"verifyElementPresent(findTestObject(""Obj Spy/login/btn_Logout""), 0)",Firefox 117.0,,,2023-09-24 17:05:35,2023-09-24 17:05:35,0.307s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-24 17:05:35,2023-09-24 17:05:36,0.927s,PASSED
