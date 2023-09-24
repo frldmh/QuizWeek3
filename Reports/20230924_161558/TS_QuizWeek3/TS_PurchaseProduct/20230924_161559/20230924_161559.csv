@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_PurchaseProduct,Firefox 117.0,,,2023-09-24 16:16:02,2023-09-24 16:16:55,52.234s,PASSED
+,,,,,,,
+Test Cases/TC_QuizWeek3/TestScenarios_QuizWeek3/DemoBlaze_PurchaseProduct/TC_PurchaseProduct_Positive-Case,Firefox 117.0,,,2023-09-24 16:16:03,2023-09-24 16:16:24,21.504s,PASSED
+openBrowser(baseURL),Firefox 117.0,,,2023-09-24 16:16:03,2023-09-24 16:16:10,6.688s,PASSED
+"setViewPortSize(ViewPortWidth, ViewPortHeight)",Firefox 117.0,,,2023-09-24 16:16:10,2023-09-24 16:16:10,0.360s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/addProduct_SamsungS6""))",Firefox 117.0,,,2023-09-24 16:16:10,2023-09-24 16:16:12,1.827s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/Purchase_product/lbl_Product""), 0)",Firefox 117.0,,,2023-09-24 16:16:12,2023-09-24 16:16:13,1.271s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/click_AddToCart""))",Firefox 117.0,,,2023-09-24 16:16:13,2023-09-24 16:16:14,0.350s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/Purchase_product/click_Cart""), 0)",Firefox 117.0,,,2023-09-24 16:16:14,2023-09-24 16:16:14,0.760s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/click_Cart""))",Firefox 117.0,,,2023-09-24 16:16:14,2023-09-24 16:16:15,0.968s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/Purchase_product/lbl_Cart""), 0)",Firefox 117.0,,,2023-09-24 16:16:15,2023-09-24 16:16:17,1.380s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/btn_PlaceOrder""))",Firefox 117.0,,,2023-09-24 16:16:17,2023-09-24 16:16:17,0.570s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/Purchase_product/lbl_PlaceOrder""), 0)",Firefox 117.0,,,2023-09-24 16:16:17,2023-09-24 16:16:18,0.385s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_Name""), customer_name)",Firefox 117.0,,,2023-09-24 16:16:18,2023-09-24 16:16:18,0.630s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_Country""), customer_country)",Firefox 117.0,,,2023-09-24 16:16:18,2023-09-24 16:16:19,0.624s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_City""), customer_city)",Firefox 117.0,,,2023-09-24 16:16:19,2023-09-24 16:16:20,0.631s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_CreditCard""), customer_creditCard)",Firefox 117.0,,,2023-09-24 16:16:20,2023-09-24 16:16:20,0.626s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_Month""), customer_month)",Firefox 117.0,,,2023-09-24 16:16:20,2023-09-24 16:16:21,0.620s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_Year""), customer_year)",Firefox 117.0,,,2023-09-24 16:16:21,2023-09-24 16:16:21,0.629s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/button_Purchase""))",Firefox 117.0,,,2023-09-24 16:16:21,2023-09-24 16:16:22,0.553s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/Purchase_product/button_Purchase""), 0)",Firefox 117.0,,,2023-09-24 16:16:22,2023-09-24 16:16:23,0.810s,PASSED
+"verifyElementPresent(findTestObject(""Obj Spy/Purchase_product/button_Purchase""), 0)",Firefox 117.0,,,2023-09-24 16:16:23,2023-09-24 16:16:23,0.321s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-24 16:16:23,2023-09-24 16:16:24,0.921s,PASSED
+,,,,,,,
+Test Cases/TC_QuizWeek3/TestScenarios_QuizWeek3/DemoBlaze_PurchaseProduct/TC_PurchaseProduct_Negative-Case,Firefox 117.0,,,2023-09-24 16:16:24,2023-09-24 16:16:55,30.459s,PASSED
+openBrowser(baseURL),Firefox 117.0,,,2023-09-24 16:16:24,2023-09-24 16:16:31,7.007s,PASSED
+"setViewPortSize(ViewPortWidth, ViewPortHeight)",Firefox 117.0,,,2023-09-24 16:16:31,2023-09-24 16:16:32,0.314s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/addProduct_SamsungS6""))",Firefox 117.0,,,2023-09-24 16:16:32,2023-09-24 16:16:33,0.966s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/Purchase_product/lbl_Product""), 0)",Firefox 117.0,,,2023-09-24 16:16:33,2023-09-24 16:16:34,1.357s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/click_AddToCart""))",Firefox 117.0,,,2023-09-24 16:16:34,2023-09-24 16:16:34,0.358s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/Purchase_product/click_Cart""), 0)",Firefox 117.0,,,2023-09-24 16:16:34,2023-09-24 16:16:35,0.838s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/click_Cart""))",Firefox 117.0,,,2023-09-24 16:16:35,2023-09-24 16:16:36,0.894s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/Purchase_product/lbl_Cart""), 0)",Firefox 117.0,,,2023-09-24 16:16:36,2023-09-24 16:16:37,1.353s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/btn_PlaceOrder""))",Firefox 117.0,,,2023-09-24 16:16:37,2023-09-24 16:16:38,0.543s,PASSED
+"waitForElementVisible(findTestObject(""Obj Spy/Purchase_product/lbl_PlaceOrder""), 0)",Firefox 117.0,,,2023-09-24 16:16:38,2023-09-24 16:16:39,0.492s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_Name""), globalCustomerName)",Firefox 117.0,,,2023-09-24 16:16:39,2023-09-24 16:16:39,0.625s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_Country""), globalCustomerCountry)",Firefox 117.0,,,2023-09-24 16:16:39,2023-09-24 16:16:40,0.645s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_City""), globalCustomerCity)",Firefox 117.0,,,2023-09-24 16:16:40,2023-09-24 16:16:40,0.642s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_Month""), globalCustomerMonth)",Firefox 117.0,,,2023-09-24 16:16:40,2023-09-24 16:16:41,0.638s,PASSED
+"setText(findTestObject(""Obj Spy/Purchase_product/inpt_Year""), globalCustomerYear)",Firefox 117.0,,,2023-09-24 16:16:41,2023-09-24 16:16:42,0.636s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/button_Purchase""))",Firefox 117.0,,,2023-09-24 16:16:42,2023-09-24 16:16:42,0.398s,PASSED
+"waitForElementNotVisible(findTestObject(""Obj Spy/Purchase_product/btn_Close""), 0)",Firefox 117.0,,,2023-09-24 16:16:42,2023-09-24 16:16:52,10.289s,PASSED
+"click(findTestObject(""Obj Spy/Purchase_product/btn_Close""))",Firefox 117.0,,,2023-09-24 16:16:52,2023-09-24 16:16:53,0.562s,PASSED
+"verifyElementPresent(findTestObject(""Obj Spy/Purchase_product/btn_Close""), 0)",Firefox 117.0,,,2023-09-24 16:16:53,2023-09-24 16:16:54,0.545s,PASSED
+closeBrowser(),Firefox 117.0,,,2023-09-24 16:16:54,2023-09-24 16:16:55,1.052s,PASSED
